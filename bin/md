@@ -687,7 +687,7 @@ function golangBuildDeb()
 	#deb打包文件夹目录
 	local packageDirectory="$PROJECT_DIR/Package"
 	#存放所有deb目录
-	local allPackagesDir="$PROJECT_DIR"
+	local allPackagesDir="$PROJECT_DIR/Packages"
 
 	buildPackage "$packageDirectory" "$allPackagesDir" true
 
